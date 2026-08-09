@@ -1,0 +1,62 @@
+[
+  {
+    "id": "stats_01",
+    "category": "stats",
+    "query": "What are Anthony Edwards' season averages this year?",
+    "expected_tools": ["get_player_stats"]
+  },
+  {
+    "id": "stats_02",
+    "category": "stats",
+    "query": "Find undervalued 3-and-D wings under age 25 this season",
+    "expected_tools": ["search_players_by_criteria"]
+  },
+  {
+    "id": "stats_03",
+    "category": "stats",
+    "query": "Compare Anthony Edwards and Josh Giddey's stats this season",
+    "expected_tools": ["compare_players"]
+  },
+  {
+    "id": "stats_04",
+    "category": "stats",
+    "query": "Who is on the Minnesota Timberwolves roster?",
+    "expected_tools": ["get_team_roster"]
+  },
+  {
+    "id": "stats_05",
+    "category": "stats",
+    "query": "Show me Anthony Edwards' last 5 games",
+    "expected_tools": ["get_player_game_log"]
+  },
+  {
+    "id": "rag_01",
+    "category": "rag",
+    "query": "How does Minnesota perform against switch-heavy defenses?",
+    "expected_tools": ["search_scouting_context"]
+  },
+  {
+    "id": "rag_02",
+    "category": "rag",
+    "query": "What historical players have a similar playing style to Anthony Edwards?",
+    "expected_tools": ["get_similar_historical_players"]
+  },
+  {
+    "id": "hybrid_01",
+    "category": "hybrid",
+    "query": "Why has Anthony Edwards' efficiency dropped compared to last season?",
+    "expected_tools": ["get_player_stats", "search_scouting_context"]
+  },
+  {
+    "id": "hybrid_02",
+    "category": "hybrid",
+    "query": "Build me a scouting report on Anthony Edwards comparing him to similar historical players",
+    "expected_tools": ["get_player_stats", "get_similar_historical_players"]
+  },
+  {
+    "id": "hybrid_03",
+    "category": "hybrid",
+    "query": "Is Josh Giddey's jump shot actually improving, or do his stats just look better because of role changes?",
+    "expected_tools": ["get_player_stats", "search_scouting_context"]
+  }
+]

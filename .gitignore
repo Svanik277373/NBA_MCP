@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Chroma persistent store
+rag_pipeline/chroma_db/
+*.sqlite3
+
+# Admin usage-tracking DB
+agent_backend/admin.db
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log
